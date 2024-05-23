@@ -26,6 +26,7 @@ terraform destroy -var-file=dev/dev.tfvars -auto-approve
 **Prod**
 
 * For Prod config/values are placed in path:/terraform-multi-env/tfvras/prod
+
 * Intializing :
 ```
 terraform init -backend-config=prod/prod.tf
