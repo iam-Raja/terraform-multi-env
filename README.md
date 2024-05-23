@@ -1,11 +1,12 @@
 # Terrafrom Multi-Env-Deployment
 
 **Procedure:**
+* created resources(Instance & R53 records) for prod & dev env
 
 **Dev**
-* created resources(Instance & R53 records) for prod & dev env
 * For Dev config/values are placed in path:/terraform-multi-env/tfvras/dev
-* Intializing :
+
+* Initializing :
 ```
 terraform init -backend-config=dev/dev.tf
  ```
@@ -27,7 +28,7 @@ terraform destroy -var-file=dev/dev.tfvars -auto-approve
 
 * For Prod config/values are placed in path:/terraform-multi-env/tfvras/prod
 
-* Intializing :
+* Initializing :
 ```
 terraform init -backend-config=prod/prod.tf
 ```
