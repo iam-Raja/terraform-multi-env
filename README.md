@@ -3,7 +3,7 @@
 **Procedure:**
 
 **Dev**
-* we have created resources(Instance & R53 records) for prod & dev env
+* created resources(Instance & R53 records) for prod & dev env
 * For Dev config/values are placed in path:/terraform-multi-env/tfvras/dev
 * Intializing :
 ```
